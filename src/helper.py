@@ -26,7 +26,7 @@ def habits_ai(question: str):
         "You are a habit creation expert. Your task is to read the user's request and generate a JSON with:\n"
         "- 'name': short habit name\n"
         "- 'description': detailed description\n"
-        "- 'color': integer 1-5 (random if unspecified)\n"
+        "- 'color': integer 1-5 (1=blue 2=purple 3=red 4=orange 5=green | choose the best color that best matches the habit) \n"
         "- 'daysOfTheWeek': list of days numbers to 0-5 (0=Sunday)\n"
         "- 'frequency': quantity os times per day\n"
         "Respond ONLY with valid JSON, no additional text and traslate to brazilian portuguese."),
